@@ -1,0 +1,195 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.a-nav{
+    font-size: 20px;
+    font-family: New York Small;
+    font-weight: 500;
+    color: #000000;
+    text-transform: uppercase;
+    margin-right: 5%;
+}
+
+
+
+.first-section h1{
+    width: 60%;
+    margin: auto;
+    text-align: center;
+ 
+    font-size: 54px;
+    font-weight: 700;
+    font-weight: bolder;
+    line-height: 54px;
+    font-family: New York Extra Large;
+    color: #000000;
+    padding-top: 25px;
+}    
+
+.first-section p{
+    width: 35%;
+    margin: auto;
+    font-family: SF Mono;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 34px;
+    text-align: center;
+    color: #000000;
+    padding-top: 25px;
+}
+
+
+
+.card-body p{
+    font-family: SF Pro Display;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 26px;
+    font-weight: bolder;
+    text-align: center;
+    
+}
+.card-img-top {
+    width: 100%;
+    height: 15vw;
+    /* object-fit:cover; */
+    
+}
+
+.article h2{
+    /* padding-top: 30px; */
+    text-align: center;
+    font-family: New York Extra Large;
+    font-weight: 700px;
+    font-size: 44px;
+    font-weight: bold;
+
+}
+.first-head{
+    display: flex;
+    justify-content:space-between;
+}
+
+footer{
+    width: 100%;
+    height:auto ;
+    color: #FFFFFF;
+    background-color: #000000;
+}
+
+.second-head{
+    width: 36%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    margin-top: 5%;
+}
+
+.second-head p{
+    margin-top: 5%;
+}
+
+.second-head p{
+    font-family: New York Small;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+
+}
+
+
+
+.third-head{
+    width: 36%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 5%;
+}
+
+.third-head a{
+    color: #FFFFFF;
+}
+
+.forth-head{
+    width: 17%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    text-align: center;
+
+
+}
+
+.p1{
+    font-family: SF Pro Text;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 28px;   
+}
+
+@media only screen and (max-width: 600px) {
+    .first-section h1{
+        width: 100%;
+        height: auto;
+    }
+    .first-section p{
+        width: 80%;
+        height: auto;
+    }
+
+    .container{
+        width: 100%;
+    }    
+    
+    .second-head{
+        width: 50%;
+        text-align: center;
+
+    }
+
+    .forth-head{
+        width: 50%;
+        text-align: center;
+    }
+
+    .first-section img{
+        width: 100%;
+    }
+
+    .row{
+        width: 100% !important;
+    }
+
+    .card-img-top{
+        width:90%;
+        height:40vh;
+      }
+
+      .first-section img{
+          width: 100%;
+      }
+
+
+
+    
+
+
+  
+    
+
+
+ 
+ 
+}
+
+    
